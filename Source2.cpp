@@ -10,7 +10,11 @@ int main()
 	char itemCode;
 	int itemQuantity;
 	double unitPrice;
-	bool isMember;
+	char isMember;
+	string cashierNotes;
+
+	double member2 = 0;
+	double total = 0;
 
 	cout << "Enter the food name: ";
 	getline(cin, foodName);
@@ -23,11 +27,31 @@ int main()
 	cin >> unitPrice;
 	cout << "Are you a member? (y/n) ";
 	cin >> isMember;
+	cin.ignore();
+	cout << "Enter cashier notes: ";
+	getline(cin, cashierNotes);
+
+
+	if (isMember == 'y' || isMember == 'Y') {
+		member2 = (unitPrice * itemQuantity) * 0.2;
+		total = (unitPrice * itemQuantity) - member2;
+
+
+	}
+	else {
+		total = unitPrice * itemQuantity;
+	}
 
 	cout << left;
 	cout << setw(15) << "Name" << setw(15) << "Code" << setw(15) << "Quantity" << setw(15) << "Price" << setw(15) << "Member?" << endl;
 	cout << left;
-	cout << setw(15) << foodName << setw(15) << itemCode << setw(15) << itemQuantity << fixed << setprecision(2) << unitPrice << setw(15) << isMember << endl;
+	cout << setw(15) << foodName << setw(15) << itemCode << setw(15) << itemQuantity << fixed << setprecision(2) << total << setw(15) << isMember << endl;
+	cout << "Cashier notes: " << cashierNotes;
+
 
 
 }
+
+
+
+
