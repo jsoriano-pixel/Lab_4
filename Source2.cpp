@@ -12,14 +12,19 @@ int main()
 	double unitPrice;
 	char isMember;
 	string cashierNotes;
+	string Smashburger
+
 
 	double member2 = 0;
 	double total = 0;
+	cout << "Small	Medium	Large
+		Smashburger	5.5	7.8	11.5
+		Fries	2.5	5.5	7.5
+		Okra	2.3	4.5	6.5
+		LimpBiscuit	5	10	15.5";
+	cout << "Select an option";
+	if (Smashburger == true )
 
-	cout << "Enter the food name: ";
-	getline(cin, foodName);
-	cout << "Enter the item code: ";
-	cin >> itemCode;
 	cout << "Enter the item quantity: ";
 	cin >> itemQuantity;
 
