@@ -1,0 +1,9 @@
+Receipt for: j
+
+Items Ordered:
+Smashburger - Small - Quantity: 10
+Fries - Medium - Quantity: 5
+LimpBiscuit - Medium - Quantity: 15
+Okra - Medium - Quantity: 32
+Thank you for stopping by!
+Total Amount Due: $523.917
