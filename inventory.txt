@@ -1,6 +1,0 @@
-Daily Inventory
-Item                Start     Change    End       
-Smashburger         50        -10       40        
-Fries               50        -5        45        
-Okra                50        -32       18        
-LimpBiscuit         50        -15       35        
